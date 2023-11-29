@@ -1,0 +1,255 @@
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 25px;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid rgb(45, 45, 47); 
+    padding: 10px;
+  }
+  
+  #customers tr{background-color:white;color:rgb(24, 22, 22)}
+  
+  #customers tr:hover {background-color: #eaeaf0;color:black}
+  
+  #customers th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: rgb(78, 78, 80);
+    color: white;
+  }
+  h1{
+    margin-left: 35%;
+  }
+  .fa-solid {
+    color:black;
+  }
+  .del{
+    border:3px solid rgb(123, 0, 255);
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 2%;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  .form-popup {
+  display: none;
+  position: fixed;
+  bottom: -10px;
+  right: 200px;
+  border: 3px solid #f1f1f1;
+  z-index:3;
+  margin-top: 40%;
+  
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+  width: 135%;
+  padding: 40px;
+  height: 700px;
+  background-color:#bed3e8;
+  
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 16px;
+  margin: 5px 0 29px 0;
+  border: none;
+  background:white;
+  font-size: 20px;
+  padding-left: 54px;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: white;
+  outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+  background-color: #aa5f04;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  padding-left: 60px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+  background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+  opacity: 0.6;
+  }
+  .navbar{
+  /* border: 2px solid rgb(6, 72, 6);
+  border-radius: 7px; */
+  font-size: 30px;
+  padding: 1px;
+  text-align: center;  
+  background-color: rgb(222, 222, 241); 
+  color:white;
+  }
+  .navbar a:hover {
+  background-color: rgb(250, 169, 191);
+  }
+  
+  .active {
+  background-color: #04AA6D;
+  }
+  
+  .sign {
+  background-color: rgb(15, 15, 17);
+  color: white;
+  border: 2px solid rgb(6, 72, 6);
+  border-radius: 10px;
+  }
+  
+  .login {
+  /* background-color: rgb(212, 212, 228); */
+  color: black;
+  border: 2px solid rgb(6, 72, 6);
+  border-radius: 8px;
+  background-color: white;
+  float: right;
+  padding: 9.3px;
+  padding-top: 8px;
+  margin-left: 3%;
+  
+  }
+  
+  .text {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 80px;
+  }
+  .open-button{
+  /* border:3px solid rgb(123, 0, 255);
+    background-color: white; */
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 28%;
+    font-size: 25px;
+    border: none;
+    background-color:white
+  
+  }
+  .btn{
+  font-size: 25px;
+  }
+  .dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+  background-color: salmon;
+  }
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 80%;
+  }
+  
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  
+  .dropdown a:hover {background-color: rgb(185, 53, 53);}
+  
+  .show {display: block;}
+  .topnav {
+  overflow: hidden;
+  background-color: rgb(14, 161, 241);
+  }
+  
+  
+  #submit{
+  color:white;
+  background-color: #04AA6D;
+  /* padding: 10px 10px; */
+  font-size: 25px;
+  width:30%;
+  margin-left:26%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0%;
+  padding-right: 0%;
+  
+  
+  }
+  body{
+  background-image: url("https://media.istockphoto.com/id/1247802822/vector/economic-instability.jpg?s=612x612&w=0&k=20&c=YqqE-qp9A2-BZZbaDwzeOlVWL0n2ZCkSssxYrZI_WAg=");
+  background-repeat: no-repeat;
+  background-position:1200px 200px;
+  }
+  .topnav {
+  overflow: hidden;
+  background-color:#bed3e8;
+  }
+  
+  .topnav a {
+  float: left;
+  color: #1f1d1d;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 27px;
+  }
+  
+  .topnav a:hover {
+  background-color:#111113;
+  color:white;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+  float: right;
+  background-color: #e35263;
+  color:white}
+  .ll{
+    width:20px;
+    height:20px;
+    margin-top: 1%;
+    border:none;
+  }
+  
+  

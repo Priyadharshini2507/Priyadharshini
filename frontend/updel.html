@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker task</title>
+    <link rel="stylesheet" href="updel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="topnav">
+          <a href="addtask.html" class="nav1">Create Task</a>
+          <a href="user.html" class="nav1">User Details</a>
+          <a href="tracker.html" class="nav1">Assign Task</a>
+          <a href="home.html" class="split">Logout</a>
+          </div>
+          <div class="sb">
+            <input type="text" placeholder=" Search task" name="search" id="searching">
+            <button type="button" onclick="searchForm()" id="sub" > <i class="fa fa-search" style="font-size: 40px;">
+            </i></button>
+            </div>
+    <table id="customers" >
+    </table>
+    <div class="form-popup" id="myForm">
+         <form action="#" class="form-container" id="task">
+          <p style="font-size: 45px;">Update Task <button type="button" class="cancel1" onclick="closeForm()"><img src="https://www.downloadclipart.net/large/47879-cancel-clipart.png" class="ll"></button></p>
+          <input type="text" class="box" id="tname1" name="name" placeholder="Taskname" required />
+          <br>
+          <input type="text" class="box" id="description1" name="description" placeholder="Enter description" required />
+          <br>
+          <input type="text" class="box" id="duration1" name="duration" placeholder="Duration" required />
+          <br>
+          <input type="text" class="box" id="status1" name="status" placeholder="Status" required />
+          <br>
+          <div id="updateid"></div>
+        </form> 
+      </div>
+      <table id="search">
+      </table>
+</body>
+<script src="upde.js">
+</script>
+</html>

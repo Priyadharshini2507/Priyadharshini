@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker task</title>
+    <link rel="stylesheet" href="tracker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav">
+      <a href="home.html" class="nav1">Home</a>
+      <a href="addtask.html" class="nav1">Create Task</a>
+      <a href="updel.html" class="nav1">Edit Task</a>
+      <a href="user.html" class="nav1">User details</a>
+      <a href="home.html" class="split">Logout</a>
+    </div>
+    <table id="customers">
+    </table>
+    <table id="customers1">
+    </table>
+    <div class="form-popup" id="myForm">
+         <form action="#" class="form-container" id="task">
+          <p style="font-size: 45px;">Task assignment</p>
+          <input type="text" class="box" id="tname" name="name" placeholder="Taskname" required />
+          <br>
+          <input type="text" class="box" id="description" name="description" placeholder="Enter description" required />
+          <br>
+          <input type="text" class="box" id="duration" name="duration" placeholder="Duration" required />
+          <br>
+          <input type="text" class="box" id="status" name="status" placeholder="Status" required />
+          <br>
+          <button type="button" onclick=addTask() id="submit" value=" Add Task" >Add Task</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form> 
+      </div>
+</body>
+<script src="tracker.js"></script>
+</html>

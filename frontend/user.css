@@ -1,0 +1,304 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-size: 25px;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 18px;
+  }
+  
+  #customers tr{background-color:white;}
+  
+  #customers tr:hover {background-color:	#d0dbff;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(85, 86, 90);
+    color: white;
+  }
+  h1{
+    margin-left: 35%;
+  }
+.fa-solid {
+    color:black;
+}
+.del{
+    border:3px solid rgb(123, 0, 255);
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 2%;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+.text {
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 100px;
+}
+.open-button{
+  border:3px solid rgb(123, 0, 255);
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 2%;
+
+}
+/*  */
+.topnav {
+  overflow: hidden;
+  background-color:#bed3e8;
+}
+
+.topnav a {
+  float: left;
+  color: #1f1d1d;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color:#111113;
+  color:white;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #e35263;
+  color: white;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 260px;
+    background-color:rgb(66, 87, 178);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: fixed;
+    bottom:65%;
+    left: 70%;
+    margin-right: 20%;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  body{
+    background-image: url("https://cdni.iconscout.com/illustration/premium/thumb/business-statics-5065896-4256954.png");
+    background-repeat: no-repeat;
+    background-position:1200px 200px;
+  }
+  .heading{
+   margin-right: 40%;
+  }
+  .search input[type=text]{
+    width:500px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+    margin-top: 1%;
+    padding: 30px;
+}
+.fa-search{
+border: none;
+background-color:white;
+}
+     
+.search{
+    float:right;
+    margin-top:8px;
+}
+     
+.search button{
+   background-color:#2196F3 ;
+    color: black;
+    float: right;
+    padding:20px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 90%;
+} 
+#searching{
+  font-size: 30px;
+  padding-left: 90px;
+}
+
+#search {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 65%;
+  margin-left: 2%;
+  margin-top: 3%;
+  font-size: 25px;
+}
+
+#search td, #search th {
+  border: 1px solid #ddd;
+  padding: 18px;
+}
+
+#search tr{background-color:white;}
+
+#search tr:hover {background-color:	#d0dbff;}
+
+#search th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(85, 86, 90);
+  color: white;
+}
+.sb{
+  margin-left: 65%;
+  margin-top: 1%;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+#sub{
+  border: 2px solid black;
+  float:right;
+}
+.fa-sort{
+  padding: 20px;
+  font-size: 40px;
+
+}

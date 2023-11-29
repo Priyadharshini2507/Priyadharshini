@@ -1,0 +1,114 @@
+.main {
+    padding: 20px;
+    font-family: 'Helvetica', serif;
+    box-shadow: 5px 5px 7px 10px #c9c8e3;
+}
+
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Helvetica', serif;
+    color: blue;
+}
+
+input {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+#submit {
+    font-family: 'Helvetica', serif;
+    width: 100%;
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.container{
+    margin-top: 5%;
+    
+    
+}
+body{
+    background-image: linear-gradient(to right, rgba(90, 95, 229, 0) rgb(218, 208, 237)); 
+    /*background-image: url("https://i.pinimg.com/originals/0f/89/cc/0f89ccd4bf45e9ea09ec5313d5c231e0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: blueviolet; */
+}
+.log{
+    text-align: center;
+    /* border: 2px solid black; */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    /* background-color: rgb(66, 69, 69); */
+    color:black;
+    font-weight: bolder;
+}
+.navbar{
+     margin-left: 90%;
+     margin-right: 3%;
+     margin-top: 2%;
+    border: 2px solid rgb(6, 72, 6);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 3px;
+    text-align: center;   
+
+}
+.log a{
+    color:blue
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  body{
+    background-image:url("https://tse2.mm.bing.net/th/id/OIP.EtZBl0LbxtPQl80R4QjvhgAAAA?rs=1&pid=ImgDetMain");
+    background-position: 1150px 300px;
+    background-size: 33%;
+    background-repeat: no-repeat;
+  }

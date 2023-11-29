@@ -1,0 +1,58 @@
+.topnav {
+  overflow: hidden;
+  background-color:#bed3e8;
+}
+
+.topnav a {
+  float: left;
+  color: #1f1d1d;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color:#111113;
+  color:white;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #e35263;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color:#bed3e8;
+}
+
+.topnav a {
+  float: left;
+  color: #1f1d1d;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+.topnav a:hover {
+  background-color:#111113;
+  color:white;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #e35263;
+  color: white;
+}
+img{
+  width:70%;
+  height: 600px;
+}
+.image{
+ margin-right: 4%;
+ margin-left: 20%;
+}

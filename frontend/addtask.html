@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="addtask.css">
+  <script src="addtask.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="updel.html">Edit Task</a>
+    <a href="user.html">User Details</a>
+    <a href="tracker.html">Assign Task</a>
+    <a href="home.html" class="split">Logout</a>
+  </div>
+  <div class="container">
+    <form action="/action_page.php" id="task">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Task Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="tname" name="firstname" placeholder="Task name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Description</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="description" name="lastname" placeholder="Description">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Duration</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="duration" name="lastname" placeholder="Duration">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Status</label>
+        </div>
+        <div class="col-75">
+          <select id="status" name="country">
+            <option id="red">Not started</option>
+            <option id="grey">Pending</option>
+            <option id="green">Completed</option>
+            <option id="yellow">In-progress</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" onclick=addTask() id="submit">Add Task</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
